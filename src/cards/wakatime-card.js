@@ -55,7 +55,7 @@ const createCompactLangNode = ({ lang, x, y }) => {
     <g transform="translate(${x}, ${y})">
       <circle cx="5" cy="6" r="5" fill="${color}" />
       <text data-testid="lang-name" x="15" y="10" class='lang-name'>
-        ${lang.name} - ${lang.text}
+        ${lang.name} - ${lang.text} |wooohooo!
       </text>
     </g>
   `;
